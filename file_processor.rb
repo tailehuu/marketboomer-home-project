@@ -2,7 +2,8 @@ require 'csv'
 require 'pry'
 
 if ARGV.length == 0
-  puts "please input filename"
+  puts "Invalid command! Please input filename"
+  puts "For example: ruby file_processor.rb sample-1.csv"
   exit
 end
 
